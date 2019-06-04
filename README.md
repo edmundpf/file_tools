@@ -19,19 +19,23 @@ export_json(data=my_dict, file='example.json')
 		* returns string from file
 		* Args
 			* *file* (string)
+			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
 	* *get_file_lines*
 		* returns list of lines from file
 		* Args
 			* *file* (string)
+			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
 * **json_file**
 	* *import_json*
 		* returns dict object (or list) from file
 		* Args
 			* *file* (string)
+			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
 	* *export_json*
 		* exports dict object (or list) to file
 		* Args
 			* *data* (dict or list)
 			* *file* (string)
 			* *indent* (int) - number of spaces for json file indentation
+			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
 
