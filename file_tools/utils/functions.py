@@ -7,7 +7,7 @@ def get_file(file, relative=False, path=''):
 	if not relative:
 		return f'{os.getcwd()}/{file}'
 	else:
-		return f'{os.path.dirname(os.path.abspath(relative_path))}/{file}'
+		return f'{os.path.dirname(os.path.abspath(path))}/{file}'
 
 #: Get Path of Caller
 
