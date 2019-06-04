@@ -13,7 +13,7 @@ def get_file(file, relative=False):
 
 def get_caller_path():
 	for item in inspect.stack():
-		if item and __file__ not in item and item.function == '<module>':
+		if item and __file__ not in item:
 			if item.index == 0:
 				return os.path.dirname(os.path.abspath(item.filename))
 
