@@ -19,23 +19,22 @@ export_json(data=my_dict, file='example.json')
 		* returns string from file
 		* Args
 			* *file* (string)
-			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 	* *get_file_lines*
 		* returns list of lines from file
 		* Args
 			* *file* (string)
-			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 * **json_file**
 	* *import_json*
 		* returns dict object (or list) from file
 		* Args
 			* *file* (string)
-			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 	* *export_json*
 		* exports dict object (or list) to file
 		* Args
 			* *data* (dict or list)
 			* *file* (string)
 			* *indent* (int) - number of spaces for json file indentation
-			* *relative* (boolean=False), if False returns file relative to CWD that python instance was launched, if True returns file relative to python script command is run
-
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
