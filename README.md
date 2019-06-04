@@ -1,4 +1,4 @@
-# Print Tools
+# File Tools
 [![Build Status](https://travis-ci.org/edmundpf/file_tools.svg?branch=master)](https://travis-ci.org/edmundpf/file_tools)
 > Includes useful methods for file/json file reading and writing.
 ## Install
