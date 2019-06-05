@@ -1,5 +1,6 @@
 # File Tools
 [![Build Status](https://travis-ci.org/edmundpf/file_tools.svg?branch=master)](https://travis-ci.org/edmundpf/file_tools)
+[![PyPI version](https://badge.fury.io/py/file-tools.svg)](https://badge.fury.io/py/file-tools)
 > Includes useful methods for file/json file reading and writing.
 ## Install
 * `python3 -m pip install file-tools`

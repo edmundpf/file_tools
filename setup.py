@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
 	name="file-tools",
-	version="0.1.3",
+	version="0.1.4",
 	author="Edmund Pfeil",
 	author_email="edmundpf@buffalo.edu",
 	description="File and JSON File Methods.",
