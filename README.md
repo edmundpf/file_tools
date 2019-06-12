@@ -39,3 +39,27 @@ export_json(data=my_dict, file='example.json')
 			* *file* (string)
 			* *indent* (int) - number of spaces for json file indentation
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+	* *write_file_string*
+		* writes file string to file
+		* Args
+			* *file* (string)
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *text* (string=''), string to write
+	* *append_file_string*
+		* appends file string to file
+		* Args
+			* *file* (string)
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *text* (string=''), string to write
+	* *write_file_lines*
+		* appends file lines to file
+		* Args
+			* *file* (string)
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *lines* (list=[]), lines to write
+	* *append_file_lines*
+		* appends file lines to file
+		* Args
+			* *file* (string)
+			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *lines* (list=[]), lines to write
