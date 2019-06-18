@@ -21,35 +21,44 @@ export_json(data=my_dict, file='example.json')
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 	* *get_file_lines*
 		* returns list of lines from file
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
+			* *newline* (sting='\n'), newline character to parse
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 	* *write_file_string*
 		* writes file string to file
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 			* *text* (string=''), string to write
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 	* *append_file_string*
 		* appends file string to file
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 			* *text* (string=''), string to write
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 	* *write_file_lines*
 		* appends file lines to file
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 			* *lines* (list=[]), lines to write
+			* *newline* (sting='\n'), newline character to separate lines
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 	* *append_file_lines*
 		* appends file lines to file
 		* Args
 			* *file* (string)
 			* *path* (string=''), if empty path will be relative of CWD, otherwise will be relative of path, useful with os.path.abspath(__file__) to get file relative to module
 			* *lines* (list=[]), lines to write
+			* *newline* (sting='\n'), newline character to separate lines
+			* *encoding* (string='utf-8'), encoding type, defaults to utf-8
 * **json_file**
 	* *import_json*
 		* returns dict object (or list) from file
